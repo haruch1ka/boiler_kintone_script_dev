@@ -1,4 +1,5 @@
-# scriptDev
+# boiler_kintone_script_dev
+
 
 kintone カスタマイズ用 TypeScript 開発テンプレート
 
