@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "script",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"dev": "tsx src/index.ts",
+		"build": "tsx build.ts",
+		"test": "vitest",
+		"tsc": "tsc",
+		"rollup": "rollup -c rollup.config.ts --configPlugin @rollup/plugin-typescript --silent"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@kintone/dts-gen": "^8.1.2",
+		"prettier": "^3.6.2",
+		"tslib": "^2.8.1",
+		"typescript": "^5.9.2"
+	},
+	"devDependencies": {
+		"@kintone/rest-api-client": "^5.7.4",
+		"@rollup/plugin-typescript": "^12.1.4",
+		"eslint": "^9.32.0",
+		"rollup": "^4.46.2",
+		"tsx": "^4.20.3",
+		"vitest": "^3.2.4"
+	}
+}
